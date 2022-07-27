@@ -102,6 +102,17 @@ const BookDetail = () => {
           variant="outlined"
           name="image"
         />
+        
+        <FormLabel>Link</FormLabel>
+        <TextField
+          value={inputs.link}
+          onChange={handleChange}
+          margin="normal"
+          fullWidth
+          variant="outlined"
+          name="link"
+        />
+
         <FormControlLabel
           control={<Checkbox checked={checked} onChange={() => setchecked(!checked)} />}
           label="Available"

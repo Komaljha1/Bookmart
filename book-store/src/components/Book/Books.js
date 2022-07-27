@@ -13,15 +13,13 @@ const Books = () => {
     }, [] );
     console.log(books);
   return (
-  <div>
-    <ul>
+  <div className="row m-5">
       {books && 
         books.map((book, i)=>(
-        <li  key={i}>
+        <div className="col-4 mb-5"  key={i}>
           <Book book={book} />
-        </li>
+        </div>
       ))}
-    </ul>
   </div>
   );
 };

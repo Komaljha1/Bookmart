@@ -5,26 +5,32 @@ import "./Book.css";
 import { Link, useNavigate } from "react-router-dom";
 const Book = (props) => {
     const history = useNavigate()
-    const { _id, name, author, description, price, image } = props.book;
+    const { _id, name, author, description, price, image, link } = props.book;
     const deleteHandler = async () => {
         await axios
-            .delete("http://localhost:5000/books/${_id}")
+            .delete(`http://localhost:5000/books/${_id}`)
             .then(res => res.data)
             .then(() => history("/"))
             .then(() => history("/books"));
     };
     return (
+        <>
+        
         <div className="card">
-            <img src={image} alt={name} />
-            <article> By {author} </article>
-            <h3> {name} </h3>
-            <p>{description}</p>
-            <h2> Rs {price} </h2>
-            <Button LinkComponent={Link} to={'/books/${_id}'} sx={{ mt: "auto" }}>
-                Update
-            </Button>
-            <Button onClick={deleteHandler} to={'/books/${_id}'} sx={{ mt: 'auto' }}>Delete</Button>
+                    <img src={image} alt={name}  width="200px" height="250px"/>
+                    <article> By {author} </article>
+                    <h3> {name} </h3>
+                    <p>{description}</p>
+                    <h3> Rs {price} </h3>
+                    <a href={link}> Click Here To Buy</a>
+                    <Button LinkComponent={Link} to={`/books/${_id}`} sx={{ mt: "auto" }}>
+                        Update
+                    </Button>
+                    <Button color="error" onClick={deleteHandler} sx={{ mt: 'auto' }}>
+                    Delete</Button>
         </div>
+
+       </>
     );
 };
 

@@ -1,15 +1,15 @@
-import { 
-  Button, 
-  FormLabel, 
-  TextField, 
-  Checkbox, 
+import {
+  Button,
+  FormLabel,
+  TextField,
+  Checkbox,
   FormControlLabel,
-  Typography, 
-} 
-from "@mui/material";
+  Typography,
+}
+  from "@mui/material";
 import { Box } from "@mui/system";
 import axios from "axios";
-import React, { useState  } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 
@@ -21,6 +21,7 @@ const AddBook = () => {
     price: "",
     author: "",
     image: "",
+    link: "",
   });
 
 
@@ -33,38 +34,41 @@ const AddBook = () => {
     }));
     // console.log(e.target.name, "value", e.target.value);
   };
-  
+
 
   //function to send the request to the database
-  const sendRequest = async() => {
-    await axios.post("http://localhost:5000/books",{
-      name:String(inputs.name),
-      author:String(inputs.author),
-      description:String(inputs.description),
+  const sendRequest = async () => {
+    await axios.post("http://localhost:5000/books", {
+      name: String(inputs.name),
+      author: String(inputs.author),
+      description: String(inputs.description),
       price: Number(inputs.price),
-      image:String(inputs.image),
-      available:Boolean(checked)
-    }).then(res=>res.data);
-  }
+      image: String(inputs.image),
+      available: Boolean(checked),
+      link: String(inputs.link)
+    }).then(res => res.data);
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(inputs , checked);
-    sendRequest().then(()=>history('/books'))
+    console.log(inputs, checked);
+    sendRequest().then(() => history("/books"));
   };
 
   return (
     <form onSubmit={handleSubmit}>
       <Box
-        display={"flex"}
-        flexDirection={"column"}
+        display="flex"
+        flexDirection="column"
         justifyContent={"center"}
         maxWidth={600}
         alignContent={"center"}
         alignSelf={"center"}
         marginLeft={"auto"}
         marginRight={"auto"}
-        marginTop={3}
+        marginTop={10}
+        marginBottom={10}
+        
       >
         <FormLabel>Name</FormLabel>
         <TextField
@@ -112,11 +116,31 @@ const AddBook = () => {
           variant="outlined"
           name="image"
         />
+
+        <FormLabel>Link</FormLabel>
+        <TextField
+          value={inputs.link}
+          onChange={handleChange}
+          margin="normal"
+          fullWidth
+          variant="outlined"
+          name="link"
+        />
+        
+        <FormLabel>Category</FormLabel>
+        <TextField
+          value={inputs.category}
+          onChange={handleChange}
+          margin="normal"
+          fullWidth
+          variant="outlined"
+          name="category"
+        />
+
         <FormControlLabel
           control={<Checkbox checked={checked} onChange={() => setchecked(!checked)} />}
           label="Available"
         />
-
         <Button variant="contained" type="submit">Add Book</Button>
       </Box>
     </form>

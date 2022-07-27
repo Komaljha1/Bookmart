@@ -1,0 +1,68 @@
+[
+    {
+        "_id": "62d58c4e94fe86f0cabcf248",
+        "name": "Let Us C++",
+        "author": "Yashavant Kanetkar",
+        "description": "Reading books is a kind of enjoyment. Reading books is a good habit. We bring you a different kinds of books. You can carry this book where ever you want. It is easy to carry. It can be an ideal gift to yourself and to your loved ones. Care instruction keep away from fire.",
+        "price": 335,
+        "available": true,
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51YkwADIq5L._SX331_BO1,204,203,200_.jpg",
+        "link": "https://www.amazon.in/Let-Us-C-Kanetkar-Yashavant/dp/9388176642?ref_=Oct_d_obs_d_14447041031&pd_rd_w=ATbFh&content-id=amzn1.sym.63783fbe-7156-4f6f-9542-5efc5e74da13&pf_rd_p=63783fbe-7156-4f6f-9542-5efc5e74da13&pf_rd_r=CCEQ1Y6D099Q384JQ4GT&pd_rd_wg=igN1x&pd_rd_r=dd571968-b22c-4825-bfe1-26c33fbc7c19&pd_rd_i=9388176642",
+        "__v": 0
+    },
+    {
+        "_id": "62d58d2194fe86f0cabcf24b",
+        "name": "C++ Programming for Beginners",
+        "author": "Scott Sanderson",
+        "description": "A Simple Start To C++ Programming Written By A Software Engineer.",
+        "price": 685,
+        "available": true,
+        "image": "https://images-eu.ssl-images-amazon.com/images/I/41LgQ6u6wQL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "link": "https://www.amazon.in/Programming-Beginners-Written-Software-Engineer/dp/1952964601?ref_=Oct_d_obs_d_14447041031&pd_rd_w=ATbFh&content-id=amzn1.sym.63783fbe-7156-4f6f-9542-5efc5e74da13&pf_rd_p=63783fbe-7156-4f6f-9542-5efc5e74da13&pf_rd_r=CCEQ1Y6D099Q384JQ4GT&pd_rd_wg=igN1x&pd_rd_r=dd571968-b22c-4825-bfe1-26c33fbc7c19&pd_rd_i=1952964601",
+        "__v": 0
+    },
+    {
+        "_id": "62d58dcc94fe86f0cabcf24e",
+        "name": "Computing Fundamentals and C Programming | 2nd Edition",
+        "author": "E Balagurusamy",
+        "description": "The book has been thoroughly updated as per the requirements of the new syllabus with optimum coverage of computer fundamentals. The concepts of C along with a competitive edge will prepare students for their CS and IT domain specific study and applications in their respective branches, as well as campus placements. It follows an illustrative and easy-to-learn approach with unique combination of optimum theory and numerous examples.",
+        "price": 559,
+        "available": true,
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51TsoeLmPML._SX375_BO1,204,203,200_.jpg",
+        "link": "https://www.amazon.in/Computing-Fundamentals-C-Programming-Balagurusamy/dp/9352604164/ref=pd_sbs_sccl_3_5/257-6538878-4623010?pd_rd_w=Y0Gkz&content-id=amzn1.sym.d3163d45-cad5-462b-8a7b-a5eb87482d2c&pf_rd_p=d3163d45-cad5-462b-8a7b-a5eb87482d2c&pf_rd_r=E395P8B9RQSSANRSMY04&pd_rd_wg=wdGa9&pd_rd_r=6e7550a6-6280-4d9d-8722-8897b34695a3&pd_rd_i=9352604164&psc=1",
+        "__v": 0
+    },
+    {
+        "_id": "62d58e9b94fe86f0cabcf251",
+        "name": "Computer Hacking Beginners Guide",
+        "author": "Alan T. Norman",
+        "description": "This book will teach you how you can protect yourself from most common hacking attacks -- by knowing how hacking actually works! After all, in order to prevent your system from being compromised, you need to stay a step ahead of any criminal hacker. You can do that by learning how to hack and how to do a counter-hack.",
+        "price": 1529,
+        "available": true,
+        "image": "https://m.media-amazon.com/images/I/51P8kPdUOqL.jpg",
+        "link": "https://www.amazon.in/Computer-Hacking-Beginners-Guide-Penetration-ebook/dp/B01N4FFHMW?ref_=Oct_d_obs_d_14447049031&pd_rd_w=zAB1p&content-id=amzn1.sym.63783fbe-7156-4f6f-9542-5efc5e74da13&pf_rd_p=63783fbe-7156-4f6f-9542-5efc5e74da13&pf_rd_r=QNQJZ9HC4BEPJS3PBGC5&pd_rd_wg=EviIF&pd_rd_r=6ddf6977-4f34-4d35-ba3d-e98b7b2822fa&pd_rd_i=B01N4FFHMW",
+        "__v": 0
+    },
+    {
+        "_id": "62d58f5194fe86f0cabcf254",
+        "name": "Java 2: The Complete Reference, Fifth Edition (Old Edition) (Osborne Complete Reference Series)",
+        "author": "Herbert Schildt",
+        "description": "Let Herb Schildt, the world's leading programming author, show you everything you need to develop, compile, debug, and run Java applications and applets. This definitive guide contains complete details on the Java language, its class libraries, and its development environment along with hundreds of examples and expert techniques.",
+        "price": 700,
+        "available": true,
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51cFSi4pwEL._SX398_BO1,204,203,200_.jpg",
+        "link": "https://www.amazon.in/Java-Complete-Reference-Fifth-Old/dp/0072224207?ref_=Oct_d_otopr_d_14447049031&pd_rd_w=o3B7E&content-id=amzn1.sym.f5d0d3e7-fe8a-4766-96ee-1c39e69d20b3&pf_rd_p=f5d0d3e7-fe8a-4766-96ee-1c39e69d20b3&pf_rd_r=QNQJZ9HC4BEPJS3PBGC5&pd_rd_wg=EviIF&pd_rd_r=6ddf6977-4f34-4d35-ba3d-e98b7b2822fa&pd_rd_i=0072224207",
+        "__v": 0
+    },
+    {
+        "_id": "62d5901194fe86f0cabcf258",
+        "name": "JavaScript: The Good Parts: The Good Parts",
+        "author": "Douglas Crockford",
+        "description": "Unearthing the Excellence in JavaScript --Douglas Crockford is a Senior JavaScript Architect at Yahoo!, well known for introducing and maintaining the JSON (JavaScript Object Notation) format. He's a regular speaker at conferences on advanced JavaScript topics, and serves on the ECMAScript committee.",
+        "price": 332,
+        "available": true,
+        "image": "https://m.media-amazon.com/images/I/511j6cza5bL._SX260_.jpg",
+        "link": "https://www.amazon.in/JavaScript-Good-Parts-ebook/dp/B0026OR2ZY",
+        "__v": 0
+    }
+]
