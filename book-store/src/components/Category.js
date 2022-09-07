@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link, useNavigate } from "react-router-dom";
+import {CATEGORIES} from "../constant";
+
+console.log("cc", CATEGORIES);
 
 const Category = () => {
   return (
@@ -8,12 +11,20 @@ const Category = () => {
    <div className="container-fluid mx-2">
     <div className="row mt-5 mx-2">
         <div className="col-md-3">
-            <button className="btn btn-warning w-100 mb-4">Java</button>
+            {
+                CATEGORIES.map((category)=> {
+                    return (
+                    <a href={`category-list/${category.id}`} className="btn btn-warning w-100 mb-4">{category.name}</a>
+
+                    );
+                })
+            }
+            {/* <button className="btn btn-warning w-100 mb-4">Java</button>
             <button className="btn btn-warning w-100 mb-4">C++</button>
             <button className="btn btn-warning w-100 mb-4">JavaScript</button>
             <button className="btn btn-warning w-100 mb-4">C</button>
             <button className="btn btn-warning w-100 mb-4">Python</button>
-            <button className="btn btn-warning w-100 mb-4">All</button>
+            <button className="btn btn-warning w-100 mb-4">All</button> */}
         </div>
         <div className="col-md-9">
             

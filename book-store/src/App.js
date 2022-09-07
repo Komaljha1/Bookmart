@@ -11,6 +11,7 @@ import BookDetail from "./components/Book/BookDetail";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/footer";
 import Category from "./components/Category";
+import Mailer from "./components/mailer"
 
 function App() {
   return (
@@ -28,9 +29,12 @@ function App() {
           <Route path="/about" element={<About />} exact/>
           <Route path="/books/:id" element={<BookDetail />} exact/>
           <Route path="/category" element={<Category />} exact/>
+          <Route path="/mailer" element={<Mailer />} exact/>
         </Routes>
       </main>
+
       <div>
+        <Mailer />
         <Footer />
       </div>
     </React.Fragment>);
